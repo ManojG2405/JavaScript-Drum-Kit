@@ -123,3 +123,7 @@
 // Method 3
 // let btn = document.getElementById("btn");
 // btn.style.background = "red";
+
+// ****** Check css applied on Element ****
+let btn = document.getElementById("btn");
+console.log(getComputedStyle(btn));
