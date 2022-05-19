@@ -102,5 +102,24 @@
 // Properties are beforebegin, afterbegin, beforeend, afterend.
 
 // *********** Change attribute through Js ********
-let btn = document.getElementById("btn");
-btn.setAttribute("name", "form1");
+// let btn = document.getElementById("btn");
+// btn.setAttribute("name", "form1");
+
+// ****** remove Attribute ******
+// btn.removeAttribute("name");
+
+// ******* Check attribute is present or not*****
+// console.log(btn.hasAttribute("name"));
+
+// ***** Change inline style *****
+// Method 1
+// let btn = document.getElementById("btn");
+//btn.style.cssText = "background-color: red; color: white; padding: 15px; border: 2px solid black; border-radius: 15px; font-size: 35px";
+
+// // Method 2
+//  let btn = document.getElementById("btn");
+// btn.setAttribute("style", "background-color: red; color: white; padding: 15px; border: 2px solid black; border-radius: 15px; font-size: 35px" )
+
+// Method 3
+// let btn = document.getElementById("btn");
+// btn.style.background = "red";
